@@ -14,3 +14,18 @@ The first patch is to be on par with the Fedora kernel concerning the currenty s
 As usual with testing builds, retain backups before using this! Also, ensure to be aware of the current security situation when using this a day or more after it had been uploaded, or alternatively, use it only on systems without any security-/privacy-sensitivity!
 
 The builds are provided with the same license as the upstream kernel: GPLv2.
+
+------
+
+### How to use:
+
+Download the files, keep them all in one folder, and then do:
+
+```
+cat kernel-7.0.8-0.fc44.ark.patched-upstream-stable.tar.xz.split* > kernel-7.0.8-0.fc44.ark.patched-upstream-stable.tar.xz
+tar xJf kernel-7.0.8-0.fc44.ark.patched-upstream-stable.tar.xz
+cd result
+sh kernelUp.sh
+```
+
+Then follow the usual `dnf` procedure as triggered by the script.
