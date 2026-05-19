@@ -1,5 +1,7 @@
 # testingKernelBuilds
 
+UPDATE: the builds have been deleted due to new code paths in fragnesia. They are still in the history of this repo, but should be considered insecure at this time and tested only on systems that are not security sensitive in any way (if you are not 100% sure what this is about, do NOT use the builds at all!).
+
 Patched Fedora kernel builds for testing purposes; **NOT for production use! ONLY use this if you know exactly what this is!**
 
 The current testing builds are Fedora kernels from the upstream stable kernel 7.0.8, build [kernel-ark](https://gitlab.com/cki-project/kernel-ark)-like by [arkify](https://gitlab.com/knurd42/linux/-/tree/arkify-arkify) to be close to the Fedora kernel.
